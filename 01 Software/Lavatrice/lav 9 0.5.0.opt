@@ -54,16 +54,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 401 267";
+  MRUDockPos:="1 5 521 267";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="215248";
+  PctWidth:="280065";
   MRUFloat:="300 180";
-  MRUHorzDock:="400 262";
+  MRUHorzDock:="520 262";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,20 +75,20 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="1075 5";
+  Pos:="1007 5";
   MRUWidth:=945;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1075 5 1871 267";
+  MRUDockPos:="1007 5 1871 267";
   MRUFloatStyle:=8192;
   MRUFloatPos:="681 213";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="428516";
+  PctWidth:="464683";
   MRUFloat:="945 700";
-  MRUHorzDock:="796 262";
+  MRUHorzDock:="864 262";
   MRUVertDock:="300 531";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -149,20 +149,20 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Pos:="407 5";
+  Pos:="527 5";
   MRUWidth:=300;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="407 5 1069 267";
+  MRUDockPos:="527 5 1001 267";
   MRUFloatStyle:=8192;
   MRUFloatPos:="392 717";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="356235";
+  PctWidth:="255250";
   MRUFloat:="300 180";
-  MRUHorzDock:="662 262";
+  MRUHorzDock:="474 262";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -179,12 +179,10 @@ BEGIN
  Item[0]:=0;
  Item[1]:=2;
  Item[2]:=13;
- Item[3]:=21;
- Item[4]:=29;
- Item[5]:=32;
- ItemCount:=6;
+ Item[3]:=29;
+ ItemCount:=4;
  Sumcheck:=63;
- Selected:=26;
+ Selected:=29;
 END;
 Frame[0]:=
 BEGIN
@@ -261,11 +259,42 @@ BEGIN
 END;
 Frame[5]:=
 BEGIN
+ Norm:="0050 0050 1450 0440";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati.Sezioni.registrazioneSottoriga!registrazioneSottoriga";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=111;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0100 0100 1416 0454";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.TaskRicette.Sezioni.Puntatori!Puntatori";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=102;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[7]:=
+BEGIN
+ Max:=true;
  Norm:="0175 0175 1575 0565";
  Min:="-001 -001";
  Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.CicliStep!CicliStep";
  Type:=13;
- Xsplit:=920;
+ Xsplit:=992;
  Views:=
  BEGIN
   View[0]:=
@@ -300,99 +329,7 @@ BEGIN
   nViews:=4;
  END;
 END;
-Frame[6]:=
-BEGIN
- Norm:="0075 0075 1391 0429";
- Min:="-001 -001";
- Path:="Z:\D\Git\Superior\Superior_botti\01 Software\Lavatrice\lav 9 0.5.0.cxp";
- Access:="PROJECT:!NuovoProgetto.Risorse.FB source program.Simboli";
- Type:=3;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=47;
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=84;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-    SortAscending:=false;
-   END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
-BEGIN
- Norm:="0025 0025 1425 0415";
- Min:="-001 -001";
- Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati!mgrRegistraDati.Simboli";
- Type:=3;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-   END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
-BEGIN
- Norm:="0050 0050 1450 0440";
- Min:="-001 -001";
- Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati.Sezioni.registrazioneSottoriga!registrazioneSottoriga";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=111;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[9]:=
-BEGIN
- Max:=true;
- Norm:="0100 0100 1416 0454";
- Min:="-001 -001";
- Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.TaskRicette.Sezioni.Puntatori!Puntatori";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=102;
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=10;
+nFrames:=8;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
