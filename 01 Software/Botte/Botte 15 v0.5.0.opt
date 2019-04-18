@@ -54,16 +54,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 600 267";
+  MRUDockPos:="1 5 161 267";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="322249";
+  PctWidth:="86472";
   MRUFloat:="300 180";
-  MRUHorzDock:="599 262";
+  MRUHorzDock:="160 262";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,20 +75,20 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="679 5";
+  Pos:="1441 5";
   MRUWidth:=945;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="679 5 1871 267";
+  MRUDockPos:="1441 5 1871 267";
   MRUFloatStyle:=8192;
   MRUFloatPos:="681 213";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="641533";
+  PctWidth:="231313";
   MRUFloat:="945 700";
-  MRUHorzDock:="1192 262";
+  MRUHorzDock:="430 262";
   MRUVertDock:="300 531";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -149,20 +149,20 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Pos:="606 5";
+  Pos:="167 5";
   MRUWidth:=300;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="606 5 673 267";
+  MRUDockPos:="167 5 1435 267";
   MRUFloatStyle:=8192;
   MRUFloatPos:="392 717";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="36217";
+  PctWidth:="682214";
   MRUFloat:="300 180";
-  MRUHorzDock:="67 262";
+  MRUHorzDock:="1268 262";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -179,7 +179,7 @@ BEGIN
  Item[0]:=0;
  Item[1]:=2;
  Item[2]:=16;
- Item[3]:=17;
+ Item[3]:=24;
  ItemCount:=4;
  Sumcheck:=72;
  Selected:=32;
@@ -239,7 +239,6 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=357;
    Mag:=1;
    Extra:=
    BEGIN
@@ -260,6 +259,21 @@ BEGIN
  END;
 END;
 Frame[4]:=
+BEGIN
+ Norm:="0075 0075 1391 0429";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.TaskRicette.Sezioni.StatoRicetta!StatoRicetta";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=96;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
 BEGIN
  Max:=true;
  Norm:="0175 0175 1491 0529";
@@ -301,7 +315,7 @@ BEGIN
   nViews:=4;
  END;
 END;
-nFrames:=5;
+nFrames:=6;
 WatchWindow:=
 BEGIN
  NumWatch:=3;

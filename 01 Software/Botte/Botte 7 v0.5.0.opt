@@ -358,10 +358,13 @@ BEGIN
  Min:="-001 -001";
  Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.CicliStep!CicliStep";
  Type:=13;
- Xsplit:=992;
  Views:=
  BEGIN
   View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
   BEGIN
    Mag:=1;
    Extra:=
@@ -378,19 +381,7 @@ BEGIN
     Width[6]:=200;
    END;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[2]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[3]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=4;
+  nViews:=2;
  END;
 END;
 nFrames:=10;

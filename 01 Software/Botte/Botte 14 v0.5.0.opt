@@ -54,16 +54,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 599 267";
+  MRUDockPos:="1 5 236 267";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="321794";
+  PctWidth:="126752";
   MRUFloat:="300 180";
-  MRUHorzDock:="598 262";
+  MRUHorzDock:="235 262";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,20 +75,20 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="680 5";
+  Pos:="1320 5";
   MRUWidth:=945;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="680 5 1871 267";
+  MRUDockPos:="1320 5 1871 267";
   MRUFloatStyle:=8192;
   MRUFloatPos:="681 213";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="640627";
+  PctWidth:="296085";
   MRUFloat:="945 700";
-  MRUHorzDock:="1191 262";
+  MRUHorzDock:="551 262";
   MRUVertDock:="300 531";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -149,20 +149,20 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Pos:="605 5";
+  Pos:="242 5";
   MRUWidth:=300;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="605 5 674 267";
+  MRUDockPos:="242 5 1314 267";
   MRUFloatStyle:=8192;
   MRUFloatPos:="392 717";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="37577";
+  PctWidth:="577161";
   MRUFloat:="300 180";
-  MRUHorzDock:="69 262";
+  MRUHorzDock:="1072 262";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -182,7 +182,7 @@ BEGIN
  Item[3]:=35;
  ItemCount:=4;
  Sumcheck:=72;
- Selected:=40;
+ Selected:=32;
 END;
 Frame[0]:=
 BEGIN
@@ -260,6 +260,37 @@ BEGIN
 END;
 Frame[4]:=
 BEGIN
+ Norm:="0125 0125 1441 0479";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati!mgrRegistraDati";
+ Type:=7;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0150 0150 1466 0504";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati.Sezioni.registrazioneSottoriga!registrazioneSottoriga";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=146;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Max:=true;
  Norm:="0175 0175 1491 0529";
  Min:="-001 -001";
  Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.CicliStep!CicliStep";
@@ -288,37 +319,6 @@ BEGIN
    END;
   END;
   nViews:=2;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0125 0125 1441 0479";
- Min:="-001 -001";
- Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati!mgrRegistraDati";
- Type:=7;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Max:=true;
- Norm:="0150 0150 1466 0504";
- Min:="-001 -001";
- Access:="PROGRAM:NuovoProgetto.Risorse.FB source program.Programmi.mgrRegistraDati.Sezioni.registrazioneSottoriga!registrazioneSottoriga";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=146;
-  END;
-  nViews:=1;
  END;
 END;
 nFrames:=7;
